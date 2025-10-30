@@ -1,0 +1,10 @@
+{
+  "network": "ganache",
+  "deployer": "0x515D00296A2E38670877971810983854A44775d7",
+  "contracts": {
+    "LotteryToken": "0xeB2f40e4173e06b28975c23Ce622c865396dEcFe",
+    "LotteryTicket": "0x005D6fF16a5c1c15aaD0736109F02561cC48833D",
+    "AdvancedLottery": "0xD2Fcd1Bd8Adfad13b7D4b27e66092D1CdC9dd11C"
+  },
+  "deploymentTime": "2025-10-30T13:44:47.318Z"
+}

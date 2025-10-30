@@ -1,8 +1,22 @@
 {
-  "name": "hardhat-project",
+  "name": "advanced-lottery-contracts",
+  "version": "1.0.0",
+  "description": "Advanced decentralized lottery system smart contracts",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "deploy": "hardhat run scripts/deploy.ts --network ganache",
+    "deploy:simple": "hardhat run scripts/deploy-simple.ts --network ganache",
+    "deploy:hardhat": "hardhat run scripts/deploy.ts --network hardhat"
+  },
   "devDependencies": {
     "@nomicfoundation/hardhat-toolbox": "^2.0.2",
     "@openzeppelin/contracts": "^5.0.0",
-    "hardhat": "^2.18.1"
+    "hardhat": "^2.18.1",
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.0.0"
   }
 }
